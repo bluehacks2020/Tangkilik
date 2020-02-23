@@ -1,9 +1,27 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>tab3</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content fullscreen="true" scroll-y="false">
 
-<ion-content>
+  <div class="container-fluid item-holder">
+    <div class="row">
+      <div class="col-sm-12 py-2">
+        <div class="card mb-2" *ngFor="let items of prodList; let i = index;">
+          <img class="card-img-top" src="../../assets/resources.png">
+          <div class="card-body text-dark">
+            <h5 class="card-title">{{items.ProductName}}</h5>
+            <p class="card-text">{{items.ProductDescription}}</p>
+          </div>
+          <ul class="list-group list-group text-dark font-weight-bold">
+            <li class="list-group-item"><span class="fa fa-map-marker text-danger"></span> {{items.ProductLocation}}
+            </li>
+            <li class="list-group-item"><span class="fa fa-shopping-basket text-danger"></span> {{items.ProductPrice}}</li>
+            <li class="list-group-item"><span class="fa fa-user text-danger"></span> {{items.productseller}}</li>
+          </ul>
+          <div class="card-body text-center">
+            <button class="btn btn-success"><span class="fa fa-handshake-o"></span>
+              Trade</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </ion-content>
