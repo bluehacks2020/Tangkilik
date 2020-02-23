@@ -1,5 +1,7 @@
 {
   "name": "Tangkilik",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

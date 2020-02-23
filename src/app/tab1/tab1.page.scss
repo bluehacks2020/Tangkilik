@@ -1,3 +1,22 @@
-ion-content ion-toolbar {
-  --background: translucent;
+.search-box {
+    right: 0;
+    top: 17px;
+    left: 20px;
+    font-size: 17px;
+    position: absolute;
+    border-radius: 50px;
+    width: 73% !important;
+    height: 43px !important;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item-holder {
+    height: 100% !important;
+    overflow-y: scroll;
+}
+
+.btn.btn-success {
+    border-radius: 20px !important;
+    background-color: #2dd36f;
+    border: none !important;
 }
