@@ -1,8 +1,7 @@
 # Tangkilik
 A mobile application for Cultural Developement.
 
-# Team Name
-Four Loops v2
+# Four Loops v2
 
 Members
 --------
